@@ -159,6 +159,7 @@
         if (plugin.settings.afterOpen) {
           plugin.settings.afterOpen();
         }
+        this.playVideo();
       },
 
       /**
@@ -862,7 +863,7 @@
             setTimeout(function() {
               $('#swipebox-overlay').removeClass('rightSpring');
             }, 500);
-          }
+          }   
           $this.playVideo();
         }
       },
