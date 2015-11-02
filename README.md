@@ -1,7 +1,13 @@
 Swipebox
 ================================
 
-A touchable jQuery lightbox.
+A touchable jQuery lightbox (modified version from original).
+
+###Modifications:
+1. Video content played using HTMLVideo element instead of iframe
+2. Controlling of video playback while moving previous/next
+3. nit: Changed tabs to spaces
+
 
 [View project page](http://brutaldesign.github.com/swipebox)
 
